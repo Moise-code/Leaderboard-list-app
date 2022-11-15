@@ -13,5 +13,4 @@ export const addNameScroe = () => {
   scoresName.append(nameAndScore);
 
   return true;
-
 };
