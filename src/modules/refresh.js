@@ -1,7 +1,9 @@
-import { refresh, scoreName } from './newScore';
-const refreshPageList = ()=>{
-  refresh.addEventListner('click', () =>{
-    scoreName.innerHTML = '';
+import { refresh, scoresName } from './newScore.js';
+
+const refreshPage = () => {
+  refresh.addEventListener('click', () => {
+    scoresName.innerHTML = '';
   });
 };
-export default refreshPageList;
+
+export default refreshPage;

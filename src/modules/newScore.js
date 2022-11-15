@@ -3,9 +3,8 @@ export const namVal = document.querySelector('.name');
 export const scoresName = document.querySelector('.scores_name');
 export const refresh = document.querySelector('.refresh');
 
-export const addNameScore = () => {
+export const addNameScroe = () => {
   const nameAndScore = document.createElement('p');
-
   if (namVal.value === 0 || score.value === 0) {
     alert('Put in a name and score');
     return false;
@@ -14,4 +13,5 @@ export const addNameScore = () => {
   scoresName.append(nameAndScore);
 
   return true;
+
 };

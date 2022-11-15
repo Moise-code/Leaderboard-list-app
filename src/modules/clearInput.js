@@ -1,8 +1,8 @@
 import { score, namVal } from './newScore.js';
 
-const clearInputs = () => {
+const clearInput = () => {
   namVal.value = '';
   score.value = '';
 };
 
-export default clearInputs;
+export default clearInput;
