@@ -3,7 +3,7 @@ export const namVal = document.querySelector('.name');
 export const scoresName = document.querySelector('.scores_name');
 export const refresh = document.querySelector('.refresh');
 
-export const addNameScroe = () => {
+export const addNameScore = () => {
   const nameAndScore = document.createElement('p');
 
   if (namVal.value === 0 || score.value === 0) {
